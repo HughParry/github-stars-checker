@@ -54,7 +54,7 @@ const App: React.FC = () => {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer GET AUTH FROM OAUTH AND USE HERE`, // Replace with your actual access token
+            // Authorization: `Bearer GET AUTH FROM OAUTH AND USE HERE`, // Replace with your actual access token
           },
           body: JSON.stringify({
             query,

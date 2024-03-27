@@ -1,0 +1,14 @@
+{
+  "name": "github-app-auth",
+  "version": "1.0.0",
+  "description": "A minimal Express app for GitHub App authentication.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@octokit/auth-oauth-app": "^4.3.4",
+    "dotenv": "^8.6.0",
+    "express": "^4.19.2"
+  }
+}
